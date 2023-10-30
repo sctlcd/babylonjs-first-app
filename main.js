@@ -22,7 +22,7 @@ box.rotation.x = -0.2;
 box.rotation.y = -0.4;
 
 const boxMaterial = new BABYLON.StandardMaterial("material", scene);
-boxMaterial.diffuseTexture = new BABYLON.Texture("./public/textures/pexels-alexander-ant-4585185-min.jpg");
+boxMaterial.diffuseTexture = new BABYLON.Texture("./textures/pexels-alexander-ant-4585185-min.jpg");
 box.material = boxMaterial;
 
 // Creating the torus
@@ -31,7 +31,7 @@ torus.position.x = -5;
 torus.rotation.x = 1.5;
 
 const torusMaterial = new BABYLON.StandardMaterial("material", scene);
-torusMaterial.diffuseTexture = new BABYLON.Texture("./public/textures/pexels-isaac-bañuelos-3467946-min.jpg");
+torusMaterial.diffuseTexture = new BABYLON.Texture("./textures/pexels-isaac-bañuelos-3467946-min.jpg");
 torus.material = torusMaterial;
 
 // Creating the cylinder
@@ -40,7 +40,7 @@ cylinder.position.x = 5;
 cylinder.rotation.x = -0.2;
 
 const cylinderMaterial = new BABYLON.StandardMaterial("material", scene);
-cylinderMaterial.diffuseTexture = new BABYLON.Texture("./public/textures/pexels-ekaterina-belinskaya-4744789-min.jpg");
+cylinderMaterial.diffuseTexture = new BABYLON.Texture("./textures/pexels-ekaterina-belinskaya-4744789-min.jpg");
 cylinder.material = cylinderMaterial;
 
 let t = 0;
